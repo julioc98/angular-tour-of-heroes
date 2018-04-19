@@ -15,6 +15,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 // import { HeroSearchComponent } from './hero-search/hero-search.component';
 
@@ -38,6 +39,7 @@ import { MessagesComponent } from './messages/messages.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    HeroSearchComponent,
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]
